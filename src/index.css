@@ -1,0 +1,19 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-nav {
+    @apply bg-gray-300 text-2xl p-2 pb-0 font-bold font-mono border-b-0 rounded-t-md mx-2;
+}
+
+.active {
+    @apply bg-black text-white;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap')
+* {
+    font-family: 'Roboto', sans-serif;
+}
