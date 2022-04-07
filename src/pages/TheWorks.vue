@@ -4,13 +4,48 @@
                 My Sample Works
         </section-header-vue>
         <div class="flex justify-start flex-wrap">
-            <div class="w-3/12 p-4 "  v-for="(work, i) in works" :key="i">
+            <div class="w-3/12 p-4">
                 <div class="text-center font-mono uppercase">
-                    <img :src="`${work.path}`" alt="">
-                    <a href="#" class="font-bold">{{work.name}}</a>
+                    <img src="../assets/img/brumultiverse.png">
+                    <a href="#" class="font-bold">Bru Website</a>
                 </div>
             </div>
-
+            <div class="w-3/12 p-4">
+                <div class="text-center font-mono uppercase">
+                    <img src="../assets/img/crms.png">
+                    <a href="#" class="font-bold">CRMS</a>
+                </div>
+            </div>
+            <div class="w-3/12 p-4">
+                <div class="text-center font-mono uppercase">
+                    <img src="../assets/img/sojikshop.png">
+                    <a href="#" class="font-bold">sojikshop</a>
+                </div>
+            </div>
+            <div class="w-3/12 p-4">
+                <div class="text-center font-mono uppercase">
+                    <img src="../assets/img/trabahonet.png">
+                    <a href="#" class="font-bold">trabahonet</a>
+                </div>
+            </div>
+            <div class="w-3/12 p-4">
+                <div class="text-center font-mono uppercase">
+                    <img src="../assets/img/wbmls.png">
+                    <a href="#" class="font-bold">WBMLS</a>
+                </div>
+            </div>
+            <div class="w-3/12 p-4">
+                <div class="text-center font-mono uppercase">
+                    <img src="../assets/img/nuwang.png">
+                    <a href="#" class="font-bold">Nuwang Website</a>
+                </div>
+            </div>
+            <div class="w-3/12 p-4">
+                <div class="text-center font-mono uppercase">
+                    <img src="../assets/img/api.png">
+                    <a href="#" class="font-bold">Yourzaj Api</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="text-lg font-mono text-center md:text-left p-4 md:p-0">
@@ -21,34 +56,4 @@
 <script setup>
     import SectionHeaderVue from '../components/SectionHeader.vue';
     import TheSeparatorVue from '../components/TheSeparator.vue';
-    const works = [
-        {
-            name: 'Bru Website',
-            path: '/src/assets/img/brumultiverse.png',
-        },
-        {
-            name: 'Clinic Record mgt. System',
-            path: '/src/assets/img/crms.png',
-        },
-        {
-            name: 'Sojikshop',
-            path: '/src/assets/img/sojikshop.png',
-        },
-        {
-            name: 'Trabahonet',
-            path: '/src/assets/img/trabahonet.png',
-        },
-        {
-            name: 'WBMLS',
-            path: '/src/assets/img/wbmls.png',
-        },
-        {
-            name: 'Nuwang Website',
-            path: '/src/assets/img/nuwang.png',
-        },
-        {
-            name: 'Api for Yourzaj',
-            path: '/src/assets/img/api.png',
-        },
-    ];
 </script>
