@@ -4,7 +4,7 @@
                 About Me
         </section-header-vue>
         <p class="text-xl tracking-wider">
-            I graduated from ama Tarlac with a bachelor degree in Information Technology. I've always loved technology, and to this day I'm still learning about it. I hope I will be part of your organization where my knowledge will be expanded, and become more productive.
+            I graduated from AMA Tarlac with a bachelor degree in Information Technology. I've always loved technology, and to this day I'm still learning about it. I hope I will be part of your organization where my knowledge will be expanded, and become more productive.
         </p>
         <the-separator-vue></the-separator-vue>
         <section-header-vue>
